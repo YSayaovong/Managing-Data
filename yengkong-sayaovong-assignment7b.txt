@@ -1,0 +1,129 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220926193858
+Username: DESKTOP-39DRNO6\ysaya
+RunAs User: DESKTOP-39DRNO6\ysaya
+Configuration Name: 
+Machine: DESKTOP-39DRNO6 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2884
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ysaya\OneDrive\Documents\PowerShell_transcript.DESKTOP-39DRNO6.Oy7Jj3bE.20220926193858.txt
+PS C:\Windows\system32> New-LocalUser -Name "Admin" -Description "Admin Account." -NoPassword
+
+Name  Enabled Description
+----  ------- -----------
+Admin True    Admin Account.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "Billing" -Description "Billing info." -NoPassword
+
+Name    Enabled Description
+----    ------- -----------
+Billing True    Billing info.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "Contact" -Description "Contact info." -NoPassword
+
+Name    Enabled Description
+----    ------- -----------
+Contact True    Contact info.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "WebMaster" -Description "Web Master." -NoPassword
+
+Name      Enabled Description
+----      ------- -----------
+WebMaster True    Web Master.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "IT Company" -Description "IT Department." -NoPassword
+
+Name       Enabled Description
+----       ------- -----------
+IT Company True    IT Department.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "Human Resources" -Description  "Email For Human Resource." -NoPassword
+
+Name            Enabled Description
+----            ------- -----------
+Human Resources True    Email For Human Resource.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "Contact" -Description "Email for contact." -NoPassword
+New-LocalUser : User Contact already exists.
+At line:1 char:1
++ New-LocalUser -Name "Contact" -Description "Email for contact." -NoPa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (Contact:LocalUser) [New-LocalUser], UserExistsException
+    + FullyQualifiedErrorId : UserExists,Microsoft.PowerShell.Commands.NewLocalUserCommand
+New-LocalUser : User Contact already exists.
+At line:1 char:1
++ New-LocalUser -Name "Contact" -Description "Email for contact." -NoPa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (Contact:LocalUser) [New-LocalUser], UserExistsException
+    + FullyQualifiedErrorId : UserExists,Microsoft.PowerShell.Commands.NewLocalUserCommand
+
+PS C:\Windows\system32> New-LocalUser -Name "Info" -Description "Email for Information." -NoPassword
+
+Name Enabled Description
+---- ------- -----------
+Info True    Email for Information.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "IT Company Manager" -Description "Email for manager." -NoPassword
+
+Name               Enabled Description
+----               ------- -----------
+IT Company Manager True    Email for manager.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "User1" -Description "User1." -NoPassword
+
+Name  Enabled Description
+----  ------- -----------
+User1 True    User1.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "User2" -Description "User2." -NoPassword
+
+Name  Enabled Description
+----  ------- -----------
+User2 True    User2.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "User3" -Description "User3." -NoPassword
+
+Name  Enabled Description
+----  ------- -----------
+User3 True    User3.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "User4" -Description "User4." -NoPassword
+
+Name  Enabled Description
+----  ------- -----------
+User4 True    User4.
+
+
+PS C:\Windows\system32> New-LocalUser -Name "User5" -Description "User5." -NoPassword
+
+Name  Enabled Description
+----  ------- -----------
+User5 True    User5.
+
+
+PS C:\Windows\system32> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220926194812
+**********************
